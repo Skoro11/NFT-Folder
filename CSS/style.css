@@ -1,0 +1,75 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family:'Outfit', sans-serif;
+}
+.container{
+  margin:25px auto;
+  background-color:hsl(216, 50%, 16%);
+  width:270px;
+  height:470px;
+  border-radius:10px;
+  padding:25px;
+}
+.image img{
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+
+}
+heading{
+  float:left;
+  color:white;
+  margin:15px 0 0 0;
+  font-size:24px;
+  font-weight: 400;
+}
+.part1-text{
+  float:left;
+  color:hsl(215, 51%, 70%);
+  margin:20px auto;
+  font-weight:200;
+  font-size: 15px;
+}
+.part2-text{
+  color:hsl(178, 100%, 50%);
+  float:left;
+  font-weight:600;
+}
+.part3-text{
+  float:right;
+  color:#8FA7CD;
+  padding-bottom:5px;
+}
+hr{
+  border:0;
+  height:1px;
+
+  background-color:hsl(215, 32%, 27%);
+  float:left;
+  width:100%;
+}
+.creator{
+  float:left;
+margin:10px 0 20px 10px;
+color: hsl(215, 51%, 70%);
+font-size:14px;
+}
+.editor{
+  color:white;
+  margin-left:5px;
+}
+.creator-image img{
+  width:30px;
+  border:1px solid white;
+  border-radius:50px;
+  margin:5px 0 0 5px;
+  padding:0px;
+  float:left;
+}
+svg{
+  float: left;
+  margin:0 5px 0 auto;
+}
+.part3-text svg{
+  margin:2px 5px 0 auto;
+}
